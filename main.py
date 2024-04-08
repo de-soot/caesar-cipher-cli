@@ -1,5 +1,5 @@
 def main() -> None:
-    user_input = input("\tPress enter to start encrypting messages using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ").lower()
+    user_input = input("\tPress enter to encrypt a message using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ").lower()
     
     if user_input == "quit":
         return
