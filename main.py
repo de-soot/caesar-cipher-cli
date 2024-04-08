@@ -1,9 +1,12 @@
-user_input = input("\tPress enter to start encrypting messages using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ")
- 
-while user_input.lower() != "quit":
+def main() -> None:
+    user_input = input("\tPress enter to start encrypting messages using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ").lower()
+    
+    if user_input == "quit":
+        return
+
     encryption_key = int(input("\tEnter encryption key\n>>> "))
     message_original = str(input("\tEnter your message\n>>> "))
- 
+    
     message_encrypted = ""
  
     for char in message_original:
@@ -32,6 +35,8 @@ while user_input.lower() != "quit":
         message_encrypted += chr(char_unicode_new)
  
     print("Encrypted message : " + message_encrypted)
- 
-    user_input = input("\tPress enter to continue encrypting messages. Enter 'quit' to exit the program\n>>> ")
     
+    main()
+    
+if __name__ == __main__:
+    main()
