@@ -1,8 +1,5 @@
 def main() -> None:
-    user_input = input("\tPress enter to encrypt a message using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ").lower()
-    
-    if user_input == "quit":
-        return
+    if input("\tPress enter to encrypt a message using a modified Caesar's Cipher. Enter 'quit' to exit the program\n>>> ").lower() == "quit": return
 
     encryption_key = int(input("\tEnter encryption key\n>>> "))
     message_original = str(input("\tEnter your message\n>>> "))
@@ -35,8 +32,6 @@ def main() -> None:
         message_encrypted += chr(char_unicode_new)
  
     print("Encrypted message : " + message_encrypted)
-    
     main()
     
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": main()
