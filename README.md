@@ -1,11 +1,13 @@
 # Caesar Cipher CLI
 Caesar Cipher in the command line made in Python.
 
-A small little program I created for my school's Computer Science class homework assignment.
+Originally made for my school's computer science class homework assignment, but expanded to include extra features.
+
+## Features
 
 ## Usage
-### Either:
+### Local
 - Download `Python 3.X.X` and `main.py` and run `main.py`
 
-### Or:
+### Online
 - Open this link in your browser: **https://onlinegdb.com/IRGQKi8Mt** and click the `Run` button
