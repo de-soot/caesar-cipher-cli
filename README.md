@@ -1,7 +1,7 @@
 # Caesar Cipher CLI
 Caesar Cipher in the command-line made in Python. Not for real-world use.
 
-Originally made for my school's computer science class homework assignment, but expanded upon to include extra features for fun.
+Originally made for my high school's computer science class homework assignment, but expanded upon to include extra features for fun.
 
 ## Features
 - Classic caesar cipher encryption gameplay
